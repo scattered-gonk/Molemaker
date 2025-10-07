@@ -3,7 +3,7 @@ class Mole:
         import json
         self.config = mole_args[0]
         with open(self.config, 'r') as config_data:
-            self.data = json.load(config_data)      
+            self.data = json.load(config_data)       
 
     def cycle_through_history(self, mole_obj):
         import requests
@@ -148,7 +148,6 @@ class Mole:
             mole_obj["MAX"] = MAX
             mole_obj["TOKEN"] = TOKEN
             to_cycle.append(mole_obj)
-            print("ADDED MOLE OBJECT")
         
         newcycle = []
         for el in to_cycle:
