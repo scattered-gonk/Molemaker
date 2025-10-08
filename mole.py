@@ -110,8 +110,8 @@ class Mole:
     def enumerate(self):
         import threading
 
-        MIN = input("ENTER MINIMUM CHAT ID TO SCAN FOR WITH ALL BOTS: ")
-        MAX = input("ENTER MAXIMUM CHAT ID TO SCAN FOR WITH ALL BOTS: ")
+        MIN = input("ENTER MINIMUM MESSAGE ID TO SCAN FOR WITH ALL BOTS: ")
+        MAX = input("ENTER MAXIMUM MESSAGE ID TO SCAN FOR WITH ALL BOTS: ")
         to_cycle = []
 
         for key in self.data.keys():
