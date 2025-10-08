@@ -1,0 +1,6 @@
+{
+    "token#": {
+        "token": "bot{id}",
+        "chat_id": "{group/channel id of Telegram bot}"
+    }
+}
